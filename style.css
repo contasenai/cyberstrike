@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #07090e;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+}
+
+.card {
+    background: #0e131f;
+    border: 1px solid #202b40;
+    border-radius: 17px;
+
+    width: 100%;
+    max-width: 420px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.badge-superior {
+    background: #102a38;
+    color: #38bdf8;
+
+    border: 1px solid #087090;
+    border-radius: 30px;
+
+    padding: 8px 16px;
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    margin-bottom: 18px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 900;
+     
+    margin-bottom: 14px;
+}
+
+.descricao {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    margin-bottom: 26px;
+}
+
+.info {
+    background: #151d30;
+    color: #cbd5e1;
+
+    border: 1px solid #27334b;
+    border-radius: 7px;
+
+    padding: 8px 12px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.azul {
+    color: #cbd5e1;
+}
+
+.botao {
+    background: linear-gradient(135deg, var (blue),#8b5cf6);
+    color: ffffff;
+    text-decoration: none;
+
+    width: 100%;
+    padding: 17px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px #3b5cf644;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: ;
+}
+
